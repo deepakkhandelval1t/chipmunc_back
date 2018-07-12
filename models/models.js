@@ -1,0 +1,20 @@
+module.exports = (db, cb) => {
+    db.load("./user_detailsModel", (err) => { });
+    db.load("./userModel", (err) => {  });   
+    db.load("./optionsModel", (err) => {  });   
+    db.load("./question_answerModel", (err) => {  });   
+    db.load("./questionsModel", (err) => {  });   
+    db.load("./user_answerModel", (err) => {   });  
+    db.load("./user_scoreModel", (err) => {  });
+    db.load("./socialloginModel", (err) => {  });
+    db.load("./user_certificationsModel", (err) => {  });
+    db.load("./user_educationsModel", (err) => {  });
+    db.load("./user_employmentsModel", (err) => {  });
+    db.load("./user_languagesModel", (err) => {  });
+    db.load("./user_loginsModel", (err) => {  });
+    db.load("./user_prof_skillsModel", (err) => {  });
+    db.load("./edu_course_typeModel", (err) => {  });
+    db.load("./edu_coursesModel", (err) => {  });
+    db.load("./edu_specializationModel", (err) => {  });
+    return cb();
+};
